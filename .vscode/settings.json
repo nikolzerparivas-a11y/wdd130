@@ -1,6 +1,6 @@
 {
   // Auto Save when focus changes (allows formatOnSave to work)
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "afterDelay",
 
   // Editor settings
   "editor.formatOnSave": true,
@@ -64,9 +64,10 @@
   "chat.commandCenter.enabled": false,
   "inlineChat.accessibleDiffView": "off",
   "terminal.integrated.initialHint": false,
-
-  "cSpell.language": "en,pt,pt_BR",
   "cSpell.words": [
-    "Zerpa"
+    "curso",
+    "inicial",
+    "página",
+    "Venezuelana"
   ],
 }
