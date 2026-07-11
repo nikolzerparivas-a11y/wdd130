@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #c592d1;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin: 10px 0;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+.foto-perfil,
+img[src="imagens/perfil.png"] {
+    width: 135px !important;
+    height: 180px !important;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 15px auto;
+    border: 3px solid #ffffff;
+}
+
+main img {
+    max-width: 300px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+aside img {
+    max-width: 450px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+main,
+aside {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2,
+aside h2 {
+    color: #00040a;
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+
+main p,
+aside p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666666;
+    font-size: 0.95rem;
+    margin-top: 30px;
+}
