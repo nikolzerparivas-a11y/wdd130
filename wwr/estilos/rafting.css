@@ -1,106 +1,48 @@
-:root {
-  --heading-font: 'Georgia', serif;
-  --body-font: 'Arial', sans-serif;
-  --primary-color: #1C355E;   
-  --secondary-color: #4682B4; 
-  --accent1-color: #5185B2;  
-  --light-background-color: #F4F7F9; 
+.header-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-* {
+.nav-flex {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.galeria-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.galeria-container figure {
+  flex: 1;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: var(--body-font);
-  color: var(--accent1-color);
-  background-color: var(--light-background-color);
-}
-
-header, main, footer {
-  max-width: 840px;
-  margin: 0 auto;
-}
-
-h1 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
   text-align: center;
 }
 
-h2 {
-  font-family: var(--heading-font);
-  color: var(--secondary-color);
-  text-align: center;
-  margin-top: 24px;
-  margin-bottom: 12px;
+.galeria-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-nav, p, section, article {
-  margin: 16px;
-  padding: 8px;
-}
-
-.socialmedia a, nav a, footer a {
-  text-decoration: none;
-}
-
-footer {
+.footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #CCCCCC;
-  margin-top: 40px;
+  padding: 20px;
 }
 
-.socialmedia img {
-  width: 32px;
-  height: auto;
-  margin-left: 8px;
+.redes-sociais {
+  display: flex;
+  gap: 10px;
 }
 
-.hero {
-  position: relative;
-  margin: 16px;
-}
-
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-h1 {
-  position: absolute;
-  top: 20px;
-  width: 100%;
-  padding: 16px;
-  text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
-  color: #fff;
-}
-
-.hero article {
-  position: absolute;
-  top: 120px;            
-  left: 10%;             
-  width: 80%;            
-  background-color: var(--accent1-color);
-  color: #FFFFFF;        
-  border-radius: 12px;  
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-}
-
-.hero article img {
-  float: right;
-  width: 125px;
-}
-
-.hero article::after {
-  content: "";
-  display: table;
-  clear: both;
+.redes-sociais img {
+  width: 24px;
+  height: 24px;
 }
