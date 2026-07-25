@@ -6,11 +6,11 @@
 
 :root {
   --primary-color: #0077b6;
-  --secondary-color: #ffb703;
+  --secondary-color: #3ca6be;
   --dark-color: #333333;
   --light-color: #f8f9fa;
   --text-color: #ffffff;
-  --hero-overlay: rgba(0, 0, 0, 0.75);
+  --hero-overlay: rgba(0, 0, 0, 0.65);
   --main-font: Arial, sans-serif;
 }
 
