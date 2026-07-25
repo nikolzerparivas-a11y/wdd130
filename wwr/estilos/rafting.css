@@ -8,7 +8,7 @@
 
 :root {
   --primary-color: #0077b6;
-  --secondary-color: #ffffff;
+  --secondary-color: #410579;
   --dark-color: #333333;
   --light-color: #f8f9fa;
   --text-color: #ffffff;
@@ -82,7 +82,7 @@ div.hero h1 {
 }
 
 div.hero article {
-  position: static;
+  position: absolute;
   max-width: 900px;
   margin: 0 auto;
   background-color: var(--hero-overlay);
