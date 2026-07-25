@@ -53,9 +53,9 @@ header.header-grid {
 
 .nav-flex a:hover,
 .nav-flex a.active {
-  color: var(--secondary-color);
+  font-size: 16px;
+  color: var(--text-color) !important;
   opacity: 1;
-  text-decoration: underline;
 }
 
 div.hero {
@@ -63,6 +63,7 @@ div.hero {
   width: 100%;
   background-color: var(--dark-color);
   padding: 40px 20px;
+  color: var(--text-color);
 }
 
 div.hero > img {
@@ -89,6 +90,7 @@ div.hero article {
   padding: 30px;
   border-radius: 8px;
   text-align: center;
+  color: var(--text-color);
 }
 
 div.hero article h2,
