@@ -10,12 +10,15 @@
   --dark-color: #333333;
   --light-color: #f8f9fa;
   --text-color: #ffffff;
+  --hero-overlay: rgba(0, 0, 0, 0.75);
   --main-font: Arial, sans-serif;
 }
 
 body {
   font-family: var(--main-font);
   line-height: 1.6;
+  background-color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .header-grid {
@@ -23,12 +26,29 @@ body {
   grid-template-columns: auto 1fr;
   align-items: center;
   padding: 10px 20px;
+  background-color: var(--primary-color);
+}
+
+.logo-img {
+  max-height: 50px;
+  width: auto;
 }
 
 .nav-flex {
   display: flex;
   justify-content: flex-end;
   gap: 15px;
+}
+
+.nav-flex a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-flex a:hover,
+.nav-flex a.active {
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -60,7 +80,7 @@ body {
   bottom: 10%;
   left: 5%;
   right: 5%;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: var(--hero-overlay);
   padding: 20px;
   border-radius: 8px;
   color: var(--text-color);
@@ -72,11 +92,19 @@ body {
   color: var(--text-color);
 }
 
+.historia-section,
+.aventura-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .galeria-container {
   display: flex;
   justify-content: space-between;
   gap: 10px;
   width: 100%;
+  margin-top: 20px;
 }
 
 .galeria-container figure {
@@ -89,6 +117,13 @@ body {
   width: 100%;
   height: auto;
   object-fit: cover;
+  border-radius: 4px;
+}
+
+.galeria-container figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--dark-color);
 }
 
 .footer-container {
@@ -96,6 +131,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: var(--dark-color);
+  color: var(--text-color);
 }
 
 .socialmedia {
