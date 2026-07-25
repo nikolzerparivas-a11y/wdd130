@@ -8,7 +8,7 @@
 
 :root {
   --primary-color: #0077b6;
-  --secondary-color: #ffffff;
+  --secondary-color: #f4b5b5fb;
   --dark-color: #333333;
   --light-color: #f8f9fa;
   --text-color: #ffffff;
@@ -66,11 +66,12 @@ body {
 }
 
 .hero h1 {
+  position: absolute;
   text-align: center;
   color: var(--text-color) !important;
-    font-size: 3rem;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(160, 150, 150, 0.903);
 }
 
 .hero article {
