@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: #0077b6;
-  --secondary-color: #d17607;
+  --secondary-color: #8abfdc;
   --dark-color: #333333;
   --light-color: #f8f9fa;
   --text-color: #ffffff;
@@ -25,9 +25,10 @@ body {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
-  padding: 10px 20px;
+  padding: 15px 20px;
   background-color: var(--primary-color);
   color: var(--text-color);
+  width: 100%;
 }
 
 .logo-img {
@@ -55,9 +56,9 @@ body {
 .hero {
   position: relative;
   width: 100%;
-  min-height: 500px;
+  height: 450px;
   background-color: var(--dark-color);
-  color: var(--text-color);
+  overflow: hidden;
 }
 
 .hero img {
@@ -69,11 +70,12 @@ body {
 
 .hero h1 {
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: 5%;
   color: var(--text-color);
   font-size: 3rem;
   z-index: 2;
+  text-shadow: 2xp 2xp 4xp rgba(0, 0, 0, 0.7);
 }
 
 .hero article {
