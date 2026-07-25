@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: #0077b6;
-  --secondary-color: #00b4d8;
+  --secondary-color: #ffb703;
   --dark-color: #333333;
   --light-color: #f8f9fa;
   --text-color: #ffffff;
@@ -27,6 +27,7 @@ body {
   align-items: center;
   padding: 10px 20px;
   background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .logo-img {
