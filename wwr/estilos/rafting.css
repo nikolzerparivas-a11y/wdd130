@@ -1,4 +1,4 @@
-* {
+*, *:::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,11 +6,11 @@
 
 :root {
   --primary-color: #0077b6;
-  --secondary-color: #8abfdc;
+  --secondary-color: #ffffff;
   --dark-color: #333333;
   --light-color: #f8f9fa;
   --text-color: #ffffff;
-  --hero-overlay: rgba(0, 0, 0, 0.65);
+  --hero-overlay: rgba(0, 0, 0, 0.75);
   --main-font: Arial, sans-serif;
 }
 
@@ -46,11 +46,14 @@ body {
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
+  opacity: 0.85;
 }
 
 .nav-flex a:hover,
 .nav-flex a.active {
   color: var(--secondary-color);
+  opacity: 1;
+  text-decoration: underline;
 }
 
 .hero {
@@ -58,7 +61,7 @@ body {
   width: 100%;
   height: 450px;
   background-color: var(--dark-color);
-  overflow: hidden;
+  color: var(--text-color) !important;
 }
 
 .hero img {
@@ -68,11 +71,14 @@ body {
   display: block;
 }
 
+.hero h1, .hero * {
+  color: var(--text-color);
+}
+
 .hero h1 {
   position: absolute;
   top: 15%;
   left: 5%;
-  color: var(--text-color);
   font-size: 3rem;
   z-index: 2;
   text-shadow: 2xp 2xp 4xp rgba(0, 0, 0, 0.7);
@@ -86,7 +92,6 @@ body {
   background-color: var(--hero-overlay);
   padding: 20px;
   border-radius: 8px;
-  color: var(--text-color);
   z-index: 2;
 }
 
