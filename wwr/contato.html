@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karen Zerpa">
+    <meta name="description"
+      content="Planeje sua próxima aventura de rafting! Entre em contato com a Correnteza Adventure para reservas, tirar dúvidas gerais ou falar com nossa equipe especialista.">
+    <title>Fale Conosco | Correnteza Adventure</title>
+
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+
+    <header class="header-grid">
+        <img src="imagens/logo-rafting.png" alt="Logotipo da Empresa de Rafting" class="logo-img">
+
+        <nav class="nav-flex">
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html" class="active">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <class="contact-layout">
+
+        <section class="contact-upper-grid">
+            <div class="company-info-block">
+                <h1>Fale Conosco</h1>
+                <p><strong>Endereço:</strong> Av. das Corredeiras, 1500 - Vale dos Canyons</p>
+                <p><strong>Telefone:</strong> (11) 98888-7777</p>
+                <p><strong>E-mail:</strong> contato@correntezaadventure.com.br</p>
+
+                <div class="map-embed-container">
+                    <iframe src="https://google.com" width="600" height="450" allowfullscreen=""
+                      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="contact-form-block">
+                <h2>Envie uma Mensagem</h2>
+                <form action="#" method="post" class="adventure-form">
+                    <div class="form-input-group">
+                        <label for="username">Nome Completo:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+
+                    <div class="form-input-group">
+                        <label for="useremail">E-mail de Contato:</label>
+                        <input type="email" id="useremail" name="useremail" required>
+                    </div>
+
+                    <fieldset class="purpose-fieldset">
+                        <legend>Finalidade da Mensagem:</legend>
+                        <label class="radio-option">
+                            <input type="radio" name="purpose" value="geral" checked> Consulta Geral
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="purpose" value="reserva"> Pergunta sobre
+                            Reserva
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="purpose" value="sugestao"> Sugestão de Site
+                        </label>
+                    </fieldset>
+
+                    <div class="form-input-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-checkbox-group">
+                        <label>
+                            <input type="checkbox" name="newsletter" value="sim"> Quero receber a
+                            newsletter mensal
+                        </label>
+                    </div>
+
+                    <button type="submit" class="submit-adventure-btn">Enviar Mensagem de
+                        Contato</button>
+                </form>
+            </div>
+        </section>
+
+        <class="staff-team-section">
+            <h2>Nossos Guias e Especialistas</h2>
+            <div class="staff-flex-container">
+                <figure class="staff-card">
+                    <img src="imagens/funcionario1.jpg"
+                      alt="Foto de Carlos Silva, Instrutor de Rafting">
+                    <figcaption>
+                        <h3>Carlos Silva</h3>
+                        <p>Instrutor Chefe</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="staff-card">
+                    <img src="imagens/funcionario2.jpg"
+                      alt="Foto de Juliana Costa, Gerente de Operações">
+                    <figcaption>
+                        <h3>Juliana Costa</h3>
+                        <p>Gerente de Reservas</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="staff-card">
+                    <img src="imagens/funcionario3.jpg"
+                      alt="Foto de Lucas Souza, Socorrista e Guia">
+                    <figcaption>
+                        <h3>Lucas Souza</h3>
+                        <p>Guia de Segurança Especializado</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer-container">
+        <!-- Corrigido o caractere de direitos autorais para renderizar corretamente -->
+        <p>&copy; 2026 Correnteza Adventure - Karen Zerpa</p>
+
+        <nav class="socialmedia">
+            < href="https://facebook.com" target="_blank">
+                <img src="imagens/facebook-icon.png" alt="Ícone do Facebook">
+            </a>
+            < href="https://instagram.com" target="_blank">
+                <img src="imagens/instagram-icon.jpg" alt="Ícone do Instagram">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="imagens/twitter-icon.png" alt="Ícone do Twitter">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
