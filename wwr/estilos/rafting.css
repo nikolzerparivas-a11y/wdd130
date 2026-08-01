@@ -155,12 +155,12 @@ div.hero article img {
   color: var(--text-color);
 }
 
-.socialmedia {
+.redes-sociais {
   display: flex;
   gap: 10px;
 }
 
-.socialmedia img {
+.redes-sociais img {
   width: 24px;
   height: 24px;
 }

@@ -8,7 +8,6 @@
     <meta name="description"
       content="Planeje sua próxima aventura de rafting! Entre em contato com a Correnteza Adventure para reservas, tirar dúvidas gerais ou falar com nossa equipe especialista.">
     <title>Fale Conosco | Correnteza Adventure</title>
-
     <link rel="stylesheet" href="estilos/rafting.css">
 </head>
 
@@ -25,11 +24,13 @@
         </nav>
     </header>
 
-    <class="contact-layout">
+    <main class="contact-layout">
+
+        <h1>Fale Conosco - Correnteza Adventure</h1>
 
         <section class="contact-upper-grid">
             <div class="company-info-block">
-                <h1>Fale Conosco</h1>
+                <h2>Informações de Contato</h2>
                 <p><strong>Endereço:</strong> Av. das Corredeiras, 1500 - Vale dos Canyons</p>
                 <p><strong>Telefone:</strong> (11) 98888-7777</p>
                 <p><strong>E-mail:</strong> contato@correntezaadventure.com.br</p>
@@ -42,7 +43,9 @@
 
             <div class="contact-form-block">
                 <h2>Envie uma Mensagem</h2>
+
                 <form action="#" method="post" class="adventure-form">
+
                     <div class="form-input-group">
                         <label for="username">Nome Completo:</label>
                         <input type="text" id="username" name="username" required>
@@ -55,16 +58,15 @@
 
                     <fieldset class="purpose-fieldset">
                         <legend>Finalidade da Mensagem:</legend>
-                        <label class="radio-option">
-                            <input type="radio" name="purpose" value="geral" checked> Consulta Geral
-                        </label>
-                        <label class="radio-option">
-                            <input type="radio" name="purpose" value="reserva"> Pergunta sobre
-                            Reserva
-                        </label>
-                        <label class="radio-option">
-                            <input type="radio" name="purpose" value="sugestao"> Sugestão de Site
-                        </label>
+
+                        <input type="radio" id="geral" name="purpose" value="geral" checked>
+                        <label for="geral" class="radio-label">Consulta Geral</label>
+
+                        <input type="radio" id="reserva" name="purpose" value="reserva">
+                        <label for="reserva" class="radio-label">Pergunta sobre Reserva</label>
+
+                        <input type="radio" id="sugestao" name="purpose" value="sugestao">
+                        <label for="sugestao" class="radio-label">Sugestão de Site</label>
                     </fieldset>
 
                     <div class="form-input-group">
@@ -73,19 +75,17 @@
                     </div>
 
                     <div class="form-checkbox-group">
-                        <label>
-                            <input type="checkbox" name="newsletter" value="sim"> Quero receber a
-                            newsletter mensal
-                        </label>
+                        <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+                        <label for="newsletter">Quero receber a newsletter mensal</label>
                     </div>
 
-                    <button type="submit" class="submit-adventure-btn">Enviar Mensagem de
-                        Contato</button>
+                    <button type="submit" id="submit-btn" name="submit-btn"
+                      class="submit-adventure-btn">Enviar Mensagem de Contato</button>
                 </form>
             </div>
         </section>
 
-        <class="staff-team-section">
+        <section class="staff-team-section">
             <h2>Nossos Guias e Especialistas</h2>
             <div class="staff-flex-container">
                 <figure class="staff-card">
@@ -120,14 +120,13 @@
     </main>
 
     <footer class="footer-container">
-        <!-- Corrigido o caractere de direitos autorais para renderizar corretamente -->
         <p>&copy; 2026 Correnteza Adventure - Karen Zerpa</p>
 
-        <nav class="socialmedia">
-            < href="https://facebook.com" target="_blank">
+        <nav class="redes-sociais">
+            <a href="https://facebook.com" target="_blank">
                 <img src="imagens/facebook-icon.png" alt="Ícone do Facebook">
             </a>
-            < href="https://instagram.com" target="_blank">
+            <a href="https://instagram.com" target="_blank">
                 <img src="imagens/instagram-icon.jpg" alt="Ícone do Instagram">
             </a>
             <a href="https://twitter.com" target="_blank">
