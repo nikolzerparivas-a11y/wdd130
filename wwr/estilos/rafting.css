@@ -165,10 +165,19 @@ div.hero article img {
   height: 24px;
 }
 
+/* ========================================================
+   ESTILOS EXCLUSIVOS - PÁGINA DE CONTATO (contato.html)
+   ======================================================== */
+
 .contact-layout {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+}
+
+.contact-layout h1 {
+  color: var(--dark-color);
+  margin-bottom: 25px;
 }
 
 .contact-upper-grid {
@@ -178,7 +187,7 @@ div.hero article img {
   margin-bottom: 50px;
 }
 
-.company-info-block h1,
+.company-info-block h2,
 .contact-form-block h2,
 .staff-team-section h2 {
   color: var(--dark-color);
@@ -241,14 +250,25 @@ div.hero article img {
   padding: 0 10px;
 }
 
+/* Garante o alinhamento em linha do input com o seu respectivo texto */
 .radio-option,
-.form-checkbox-group label {
+.form-checkbox-group {
   display: flex;
   align-items: center;
   gap: 8px;
   margin: 8px 0;
+}
+
+.radio-option label,
+.form-checkbox-group label {
   cursor: pointer;
   font-weight: normal;
+  color: var(--dark-color);
+}
+
+.radio-option input,
+.form-checkbox-group input {
+  cursor: pointer;
 }
 
 .submit-adventure-btn {
