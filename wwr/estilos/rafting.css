@@ -7,13 +7,12 @@
 }
 
 :root {
-  --primary-color: #0077b6;
-  --dark-color: #333333;
-  --light-color: #94bfeb;
-  --text-color: #ffffff;
-  --hero-overlay: rgba(0, 0, 0, 0.75);
-  --main-font: Arial, sans-serif;
-  --shadow-color: rgba(52, 51, 51, 0.921);
+  --primary-color: #044347;
+  --secondary-color: #d76c38;
+  --accent-color: #002133;
+  --light-bg: #f8f9fa;
+  --text-dark: #111827;
+  --text-light: #ffffff;
 }
 
 body {
